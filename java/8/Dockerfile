@@ -1,4 +1,4 @@
-FROM        --platform=$TARGETOS/$TARGETARCH eclipse-temurin:8u312-b07-jdk-focal
+FROM        eclipse-temurin:8u312-b07-jdk-focal
 
 RUN         rm -rf /usr/bin/dd \
 						&& rm -rf /usr/bin/fallocate \

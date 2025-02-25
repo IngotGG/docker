@@ -1,4 +1,4 @@
-FROM        --platform=$TARGETOS/$TARGETARCH eclipse-temurin:17-jdk-jammy
+FROM        eclipse-temurin:17-focal
 
 RUN         rm -rf /usr/bin/dd \
 						&& rm -rf /usr/bin/fallocate \
