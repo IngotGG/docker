@@ -29,10 +29,9 @@ cat << 'EOF'
  / ____/ /  / (__  ) / / / / / /|  / /_/ / /_/ /  __(__  )
 /_/   /_/  /_/____/_/ /_/ /_/_/ |_/\____/\__,_/\___/____/
 EOF
-
-echo -e "${GREEN} booting up your server"
 echo -e "========================================================================================================"
 echo -e "${LBLUE}Thankyou for choosing PrismNodes! Need help? Reach us on Discord: discord.gg/prismnodes ${RESET_COLOR}"
 echo -e "========================================================================================================"
+echo -e "${GREEN} booting up your server"
 eval "${MODIFIED_STARTUP}"
-echo -e "Your server is now ${RED}off ${RESET_COLOR}"
+echo -e "${RED}Your server is now off${RESET_COLOR}"
